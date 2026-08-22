@@ -1,9 +1,99 @@
 fileFormatVersion: 2
-guid: 063e74fda433d834b874b040f847f504
+guid: 0cd2243dff58a464caf397d660f7b595
 ModelImporter:
   serializedVersion: 24300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Concrete floor
+    second: {fileID: 2100000, guid: 1175581d1918cbe48860ab30b68f795a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leather Brown Mottled
+    second: {fileID: 2100000, guid: 8e2cd32385975294cacc1390b0e4fcac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_AisleLight
+    second: {fileID: 2100000, guid: d6a1a1ae540c2f04abf4f65286896fc9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Amber
+    second: {fileID: 2100000, guid: 9b2ee8385751e1744bd0982400250eca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Btn_Jupiter
+    second: {fileID: 2100000, guid: 6554039f7ca355247ab3c07e2550220e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Btn_Mars
+    second: {fileID: 2100000, guid: 467c61b10e4f9884696bd6e260541842, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Btn_Mercury
+    second: {fileID: 2100000, guid: 21cb35ddc0811ea43b8554bc8a139022, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Btn_Moon
+    second: {fileID: 2100000, guid: 3ebebe6b4f4b1c94187ef37d425fdef5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Btn_Saturn
+    second: {fileID: 2100000, guid: e09825dce77f8fc47a9763170acdfc2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Btn_Venus
+    second: {fileID: 2100000, guid: 76e8cb59004e6784fa90f87c5741e6c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_CanopyGlass
+    second: {fileID: 2100000, guid: d612e52ce0fe8c64fbb147959fd4ce74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_LightStrip
+    second: {fileID: 2100000, guid: c0beac35ce5e0e14eb63e4109da60dd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Panel
+    second: {fileID: 2100000, guid: d4b68e167a9ff2d418019b7fc5c7c1c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Screen
+    second: {fileID: 2100000, guid: b51e7816e4636004cb1c3facc1eb5e59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_SeatFrame
+    second: {fileID: 2100000, guid: 3e5218a654a808e4593680233fd3895a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Trim
+    second: {fileID: 2100000, guid: 7db7bd1aa7c63424483064a3cba1c4b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Polished Chrome Metal
+    second: {fileID: 2100000, guid: 669542b2a3c8fb54399b1900092c7c16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roller shutters
+    second: {fileID: 2100000, guid: f3b198817e5229543811b6b305c0e3fd, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -36,7 +126,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importPhysicalCameras: 1
@@ -47,7 +137,7 @@ ModelImporter:
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
