@@ -23,6 +23,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Mars.unity
     guid: 109367fcdec340542907b4281eb5d002
+  - enabled: 1
+    path: Assets/Scenes/Transitions/Moon_Transition.unity
+    guid: d8832c91acac1fd4fbe56df7be7e5495
+  - enabled: 1
+    path: Assets/Scenes/Transitions/Mars_Transition.unity
+    guid: fe6841841c32a0c47beefcb9e8e36408
+  - enabled: 1
+    path: Assets/Scenes/Transitions/Mercury_Transition.unity
+    guid: 1dbdcc34875135a4782ab97024b9001e
+  - enabled: 1
+    path: Assets/Scenes/Transitions/Saturn_Transition.unity
+    guid: cec1ad9723ce3484c8b54167baf131c0
   m_configObjects:
     com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
