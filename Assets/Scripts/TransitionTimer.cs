@@ -13,16 +13,25 @@ public class TransitionTimer : MonoBehaviour
 
     void Start()
     {
-        // The moment this transition scene loads, start the countdown
+        // 1. Convert the input to lowercase and check if it's the spacecraft
+        if (finalPlanetScene == "Spacecraft")
+        {
+            Debug.Log("Destination is spacecraft. Halting transition timer.");
+            // 2. The 'return' stops the Start method right here, 
+            // so the countdown coroutine never even begins!
+            return;
+        }
+
+        // 3. If it's a planet, proceed with the normal countdown
         StartCoroutine(WaitAndLoad());
     }
 
     private IEnumerator WaitAndLoad()
     {
-        // 1. Wait for your set time (5 seconds)
+        // Wait for your set time (5 seconds)
         yield return new WaitForSeconds(waitTime);
 
-        // 2. Load the final terrain scene!
+        // Load the final terrain scene!
         SceneManager.LoadScene(finalPlanetScene);
     }
 }
