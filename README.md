@@ -42,9 +42,9 @@ Locomotion on each body is tuned relative to real-world reference values, so the
 
 | Member | Contribution |
 |--------|-------------|
-| **Kritika** | Unity scripting, physics, animations, interactions, planet travel/transition system, astronaut & zero-gravity locomotion, cockpit functionality, XR hand tracking setup, and overall game flow |
+| **Kritika** | Unity scripting, physics, animations, interactions, planet travel/transition system|
 | **Emlin** | 3D modeling and asset sourcing (Blender), Unity animation work, game flow collaboration |
-| **Richa** | 3D modelling and terrain asset sourcing |
+| **Richa** | 3D modeling (Blender) and terrain asset sourcing, Planet terrain functionality (Unity)|
 
 ## Getting Started
 
