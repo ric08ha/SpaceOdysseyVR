@@ -38,13 +38,9 @@ Locomotion on each body is tuned relative to real-world reference values, so the
 - Blender (3D modeling)
 - Git LFS (for large binary assets — models, terrain files)
 
-## Team Contributions
+## Contributions
+My work primarily focused on the modelling of the planet terrains in blender, researching and implementing accurate textures using references. I also worked on implementing some terrains into the Unity scenes and adding scripts for gravity functionality. I was also involved in the testing process when exporting the project to the Meta Quest 3, and troubleshooting linking errors.
 
-| Member | Contribution |
-|--------|-------------|
-| **Kritika** | Unity scripting, physics, animations, interactions, planet travel/transition system|
-| **Emlin** | 3D modeling and asset sourcing (Blender), Unity animation work, game flow collaboration |
-| **Richa** | 3D modeling (Blender) and terrain asset sourcing, Planet terrain functionality (Unity)|
 
 ## Getting Started
 
